@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { FiHelpCircle } from "react-icons/fi";
 
 const AdditionalInfo = () => {
     const [formData, setFormData] = useState({
@@ -327,10 +326,10 @@ const AdditionalInfo = () => {
 
                     <button
                         type="button"
-                        className="help-button fixed bottom-1/4 flex border-2 roboto-regular hover:border-black right-0 m-4 bg-black text-white hover:bg-white hover:text-black px-4 py-2 rounded-md"
+                        className="help-button fixed bottom-1/4 flex justify-center items-center border-2 roboto-regular hover:border-black right-0 m-4 bg-black text-white hover:bg-white hover:text-black px-4 py-2 rounded-md"
                         onClick={() => alert('Help button clicked!')}
                     >
-                        <FiHelpCircle className = ' w-6 h-6 mr-2 ' />Help
+                        <i className="fa-regular fa-circle-question mr-2"></i>Help
                     </button>
 
                     <button
