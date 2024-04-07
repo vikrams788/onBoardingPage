@@ -183,7 +183,7 @@ const RegistrationPage = () => {
 
                     {/* Log In Link */}
                     <p className="mt-8 text-sm text-gray-600 text-center">
-                        Already have an account? <a href="/login" className="text-indigo-600 hover:underline">Log In</a>
+                        Already have an account? <p className="text-indigo-600 hover:underline" onClick={navigate('/login')}>Log In</p>
                     </p>
                 </div>
             </div>
